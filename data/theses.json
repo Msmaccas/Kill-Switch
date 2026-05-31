@@ -1,0 +1,52 @@
+[
+  {
+    "id": "thesis-omnlkplt",
+    "createdAt": "2026-05-31T16:00:18.238Z",
+    "lastReviewedAt": "2026-05-31T16:00:18.238Z",
+    "type": "setup",
+    "description": "Group leadership continuation and constructive pullbacks",
+    "supports": [
+      "group leadership continues",
+      "constructive pullbacks"
+    ],
+    "killConditions": [
+      "price drop 10%"
+    ],
+    "reviewCadenceDays": 1,
+    "horizonDays": 10
+  },
+  {
+    "id": "thesis-etzbyee0",
+    "createdAt": "2026-05-31T16:00:18.238Z",
+    "lastReviewedAt": "2026-05-31T16:00:18.238Z",
+    "type": "catalyst",
+    "description": "Product launch expected to beat expectations",
+    "supports": [
+      "innovative product",
+      "strong demand indications"
+    ],
+    "killConditions": [
+      "price drop 20%",
+      "launch delayed"
+    ],
+    "reviewCadenceDays": 1,
+    "horizonDays": 20
+  },
+  {
+    "id": "thesis-kvm5x74w",
+    "createdAt": "2026-05-31T16:00:18.238Z",
+    "lastReviewedAt": "2026-05-31T16:00:18.238Z",
+    "type": "macro",
+    "description": "Macro expansion with stable rates",
+    "supports": [
+      "GDP growth",
+      "stable rates"
+    ],
+    "killConditions": [
+      "price drop 50%",
+      "rate hikes resume"
+    ],
+    "reviewCadenceDays": 1,
+    "horizonDays": 30
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "@killswitch/server",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "npm exec tsc -- -p tsconfig.json",
+    "test": "npm exec jest"
+  },
+  "dependencies": {
+    "@killswitch/core": "*",
+    "@killswitch/data": "*",
+    "@killswitch/workflows": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

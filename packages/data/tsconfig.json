@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "strict": true,
+    // no rootDir so that referenced source files outside the package can be type‑checked
+    "outDir": "dist",
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "rootDirs": ["src", "../core/src"]
+  },
+  // Note: no project references are used; cross‑package imports are resolved at runtime.
+  "include": ["src"]
+}

@@ -1,0 +1,28 @@
+#!/bin/bash
+# Simple repository hygiene check. This script searches for compiled
+# JavaScript files outside of designated dist folders and reports an
+# error if any are found. It can be extended to include additional
+# checks (e.g. secrets, large binaries) as required.
+
+set -e
+
+# Find .js files outside dist directories (excluding node_modules, .next, tests, scripts and certain top‑level files)
+bad_js=$(find . \
+  \( -path './node_modules' -o -path '*/dist' -o -path '*/.next' -o -path './tests' -o -path './scripts' -o -path '*/__tests__' \) -prune -false \
+  -o -name '*.js' -print \
+  | grep -vE '^\.\/answer\.js$|^\.\/slides_template\.js$' || true)
+if [[ -n "$bad_js" ]]; then
+  echo "Error: JavaScript source detected outside of dist directories. Please remove compiled artefacts." >&2
+  echo "$bad_js" >&2
+  exit 1
+fi
+
+# Check for zip archives or other binary artefacts committed by mistake
+bad_bins=$(find . -type f \( -name '*.zip' -o -name '*.tar' -o -name '*.tar.gz' \) || true)
+if [[ -n "$bad_bins" ]]; then
+  echo "Error: Compressed archives should not be committed to the repository:" >&2
+  echo "$bad_bins" >&2
+  exit 1
+fi
+
+exit 0

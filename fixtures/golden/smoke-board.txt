@@ -1,0 +1,3 @@
+thesis-omnlkplt [setup] severity=HARD review=OK notes=Price dropped -8.0%, approaching threshold of -10.0% ;  Price dropped -25.0%, breaching hard threshold of -10.0%
+thesis-etzbyee0 [catalyst] severity=HARD review=OK notes=Price dropped -25.0%, breaching hard threshold of -20.0%
+thesis-kvm5x74w [macro] severity=SOFT review=OK notes=Price dropped -25.0%, approaching threshold of -50.0%

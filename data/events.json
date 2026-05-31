@@ -1,0 +1,29 @@
+[
+  {
+    "id": "evt-soft",
+    "type": "price",
+    "description": "Price drop -8%",
+    "timestamp": "2026-05-31T16:00:18.241Z",
+    "attributes": {
+      "percentageChange": -0.08
+    }
+  },
+  {
+    "id": "evt-hard",
+    "type": "price",
+    "description": "Price drop -25%",
+    "timestamp": "2026-05-31T16:00:18.241Z",
+    "attributes": {
+      "percentageChange": -0.25
+    }
+  },
+  {
+    "id": "evt-benign",
+    "type": "price",
+    "description": "Price rise 5%",
+    "timestamp": "2026-05-31T16:00:18.241Z",
+    "attributes": {
+      "percentageChange": 0.05
+    }
+  }
+]

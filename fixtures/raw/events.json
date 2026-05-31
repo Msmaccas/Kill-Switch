@@ -1,0 +1,16 @@
+[
+  {
+    "id": "raw1",
+    "type": "price",
+    "description": "Daily price change",
+    "timestamp": "2024-05-01T00:00:00Z",
+    "attributes": { "percentageChange": -0.03 }
+  },
+  {
+    "id": "raw2",
+    "type": "news",
+    "description": "Minor earnings revision",
+    "timestamp": "2024-05-02T00:00:00Z",
+    "attributes": { "negative": false }
+  }
+]

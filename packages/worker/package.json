@@ -1,0 +1,22 @@
+{
+  "name": "@killswitch/worker",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "npm exec tsc -- -p tsconfig.json",
+    "test": "npm exec jest",
+    "smoke": "node dist/smoke.js"
+  },
+  "dependencies": {
+    "@killswitch/core": "*",
+    "@killswitch/data": "*",
+    "@killswitch/providers": "*",
+    "@killswitch/workflows": "*",
+    "@killswitch/reports": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

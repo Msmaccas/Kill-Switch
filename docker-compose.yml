@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  killswitch:
+    build: .
+    ports:
+      - "3099:3099"
+    environment:
+      - PORT=3099
+    volumes:
+      # Mount data and reports directories so that state persists outside the container
+      - ./data:/app/data
+      - ./reports:/app/reports
+      - ./fixtures:/app/fixtures

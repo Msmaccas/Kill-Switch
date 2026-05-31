@@ -1,0 +1,17 @@
+{
+  "name": "@killswitch/core",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "npm exec tsc -- -p tsconfig.json",
+    "test": "npm exec jest",
+    "lint": "echo 'no linter configured'"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

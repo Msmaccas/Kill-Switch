@@ -1,0 +1,70 @@
+[
+  {
+    "thesis": {
+      "id": "thesis-omnlkplt",
+      "createdAt": "2026-05-31T16:00:18.238Z",
+      "lastReviewedAt": "2026-05-31T16:00:18.238Z",
+      "type": "setup",
+      "description": "Group leadership continuation and constructive pullbacks",
+      "supports": [
+        "group leadership continues",
+        "constructive pullbacks"
+      ],
+      "killConditions": [
+        "price drop 10%"
+      ],
+      "reviewCadenceDays": 1,
+      "horizonDays": 10
+    },
+    "severity": "HARD",
+    "lastUpdate": "2026-05-31T16:00:18.244Z",
+    "notes": "Price dropped -8.0%, approaching threshold of -10.0% \n Price dropped -25.0%, breaching hard threshold of -10.0%",
+    "reviewDue": false
+  },
+  {
+    "thesis": {
+      "id": "thesis-etzbyee0",
+      "createdAt": "2026-05-31T16:00:18.238Z",
+      "lastReviewedAt": "2026-05-31T16:00:18.238Z",
+      "type": "catalyst",
+      "description": "Product launch expected to beat expectations",
+      "supports": [
+        "innovative product",
+        "strong demand indications"
+      ],
+      "killConditions": [
+        "price drop 20%",
+        "launch delayed"
+      ],
+      "reviewCadenceDays": 1,
+      "horizonDays": 20
+    },
+    "severity": "HARD",
+    "lastUpdate": "2026-05-31T16:00:18.244Z",
+    "notes": "Price dropped -25.0%, breaching hard threshold of -20.0%",
+    "reviewDue": false
+  },
+  {
+    "thesis": {
+      "id": "thesis-kvm5x74w",
+      "createdAt": "2026-05-31T16:00:18.238Z",
+      "lastReviewedAt": "2026-05-31T16:00:18.238Z",
+      "type": "macro",
+      "description": "Macro expansion with stable rates",
+      "supports": [
+        "GDP growth",
+        "stable rates"
+      ],
+      "killConditions": [
+        "price drop 50%",
+        "rate hikes resume"
+      ],
+      "reviewCadenceDays": 1,
+      "horizonDays": 30
+    },
+    "severity": "SOFT",
+    "lastUpdate": "2026-05-31T16:00:18.244Z",
+    "notes": "Price dropped -25.0%, approaching threshold of -50.0%",
+    "reviewDue": false
+  }
+]
